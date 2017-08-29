@@ -39,6 +39,10 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
+
+
         x.http().get(params, new Callback.CommonCallback<String>() {
             @Override
             public void onSuccess(String result) {
