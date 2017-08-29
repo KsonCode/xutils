@@ -34,6 +34,11 @@ public class MainActivity extends AppCompatActivity {
     private void getData() {
         RequestParams params = new RequestParams(HttpApi.GET_URL);
         params.addQueryStringParameter("key", HttpApi.KEY);
+        System.out.println("   ");
+
+
+
+
         x.http().get(params, new Callback.CommonCallback<String>() {
             @Override
             public void onSuccess(String result) {
