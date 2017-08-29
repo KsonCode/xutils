@@ -25,5 +25,12 @@ public class App extends Application {
 
     private void initXutils() {
         x.Ext.init(this);
+
+
+
+
+
+
+
     }
 }
